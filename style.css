@@ -1,0 +1,42 @@
+.menu ul{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul li {
+    list-style: none;
+    padding: 20px;
+
+}
+.menu ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #222;
+    font-size: 18px;
+}
+
+.menu ul li :hover{
+    background-color: gray;
+    color:#fff;
+}
+
+
+
+/* media query:- */
+
+@media screen and (max-width:600px) {
+    .menu ul{
+        flex-direction: column;
+        border-radius: 2px;
+    }
+    .menu ul li {
+        background-color: indigo;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 10px;
+        
+    }
+    
+    
+}
