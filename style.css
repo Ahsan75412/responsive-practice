@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .menu ul{
     background-color: aquamarine;
     display: flex;
@@ -22,8 +25,20 @@
 }
 
 
+.column{
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+}
 
 /* media query:- */
+@media screen and (max-width:992px){
+    .column{
+        width: 50%;
+    }
+    
+}
 
 @media screen and (max-width:600px) {
     .menu ul{
@@ -36,6 +51,9 @@
         text-align: center;
         border-radius: 10px;
         
+    }
+    .column{
+        width: 100%;
     }
     
     
