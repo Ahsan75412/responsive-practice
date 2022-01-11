@@ -32,6 +32,8 @@
 
 }
 
+/* jhankar responsive basic learn start here */
+
 
 .login-container{
     display: flex;
@@ -70,6 +72,36 @@ nav a{
 }
 
 
+
+
+
+/* using flex responsive a card with simple flex css start here */
+
+
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food{
+    border: 3px solid burlywood;
+    width: 300px;
+    margin: 10px;
+
+}
+
+.food img{
+    width: 75%;
+}
+
+
+
+/* using flex responsive a card with simple flex css ends here */
+
+
+/* jhankar responsive basic learn ends here */
+
+
 /* media query:- */
 @media screen and (max-width:992px){
     .column{
@@ -96,3 +128,30 @@ nav a{
     
     
 }
+
+
+
+
+/* jhankar responsive media query learn start here */
+
+/* 
+@media (max-width:700px) {
+    .food{
+        background-color: orange;
+        margin-bottom: 20px;
+    }
+    .menu-container{
+        flex-direction: column;
+    }
+    
+}
+
+@media (min-width:900px) {
+    .food{
+        background-color: palegoldenrod;
+    }
+} */
+
+
+
+/* jhankar responsive media query learn ends here */
